@@ -1,0 +1,14 @@
+.videoBox .ie-poster {
+	display: block;
+	width: 100%;
+}
+
+.statistics .statGraph {
+		display: none;
+}
+.statistics ul li {
+	width: 180px;
+}
+.statistics ul li img {
+	display: inline-block;
+}

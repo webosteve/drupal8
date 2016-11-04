@@ -1,0 +1,17 @@
+global-styling:
+  css:
+    theme:
+      css/jquery.fancybox.css: {}
+      css/style.css: {}
+      
+  js:
+      js/jquery-1.8.3.js: {}
+      js/custom.js: {}
+      js/jquery.fancybox-media.js: {}
+      js/jquery.cycle2.min.js: {}
+      js/jquery.easing.min.js: {}
+      js/jquery.fancybox.pack.js: {}
+      js/jquery.knob.js: {}
+
+      
+  

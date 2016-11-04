@@ -1,0 +1,121 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+/*@font-face {
+    font-family: 'open_sansregular';
+    src: url('https://webonise-new.weboapps.com/fonts/OpenSans/OpenSans-Regular-webfont.eot');
+    src: url('https://webonise-new.weboapps.com/fonts/OpenSans/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('https://webonise-new.weboapps.com/fonts/OpenSans/OpenSans-Regular-webfont.woff') format('woff'),
+         url('https://webonise-new.weboapps.com/fonts/OpenSans/OpenSans-Regular-webfont.ttf') format('truetype'),
+         url('https://webonise-new.weboapps.com/fonts/OpenSans/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}*/
+.wufoo #header,
+form li label span.req {
+	display: none !important;
+}
+.wufoo {
+	letter-spacing: normal;
+	font-family: "Open Sans",serif;
+}
+form li {
+	margin:0 0 20px;
+}
+.wufoo li.focused {
+	background-color: #fff;
+}
+.wufoo label.desc,
+form li.error .desc  {
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 20px;
+	color: #959595 !important;	
+}
+.wufoo input.text,
+.wufoo textarea.textarea,
+.wufoo input.file,
+.wufoo select.select {		
+	background: #f5f5f5;
+	font-size: 16px;
+	box-shadow: none;
+	border: 0;
+	height: 45px;
+	padding: 5px 10px;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid transparent;
+	border-radius: 0 !important;
+}
+.wufoo input.file,
+.wufoo li input[type="file"],
+.safari .wufoo input.file {	
+	padding: 5px;
+	width: 100%;
+	border:1px solid transparent !important;
+	height: auto;	
+}
+.wufoo input[type="text"]:hover,
+.wufoo input[type="email"]:hover,
+.wufoo input[type="url"]:hover,
+.wufoo input[type="file"]:hover,
+.wufoo textarea:hover,
+.wufoo select.select:hover,
+.safari .wufoo select.select:hover,
+.wufoo input[type="text"]:focus,
+.wufoo input[type="email"]:focus,
+.wufoo input[type="url"]:focus,
+.wufoo textarea:focus,
+.wufoo select.select:focus,
+.safari .wufoo select.select:focus,
+li.focused textarea.textarea, 
+li.focused  select.select,
+li.focused input[type="file"],
+.wufoo input.text:hover{
+	border: 1px solid #84c225 !important;
+	box-shadow: none;
+	outline: none;
+}
+.wufoo textarea.textarea {
+	height: 160px;
+}
+.wufoo select.select,
+.safari .wufoo select.select{	
+	height: 45px;
+	background: #f5f5f5;
+	padding: 5px;
+	color: #333333;
+	font-size: 16px !important;
+	font-weight: normal;
+	border: 1px solid transparent;	
+  	-webkit-border-radius: 0px;
+}
+form li.buttons input.btTxt {	
+	font-size: 16px;
+	line-height: 22px;
+	background: #84c225;
+	padding: 15px 30px;
+	color: #fff;
+	border:none;
+	margin: 0 auto;
+	display: block;
+}
+form li.error {
+	background-color: #fff !important;
+}
+form li.error p.error {
+	color: #da462e !important;
+	font-weight: normal;
+}
+li.error input.text,
+li.error textarea.textarea, 
+li.error  select.select,
+li.error  input.file,
+.safari .wufoo li.error input.file{
+   	border: 1px solid #da462e !important;
+   	box-shadow: none;
+}
+#errorLi {
+   	display: none;
+}
+.error label.desc {
+	font-weight: normal !important;
+}
